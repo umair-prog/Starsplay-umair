@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SeasonsCollectionViewCell" id="gTV-IL-0wX" customClass="SeasonsCollectionViewCell" customModule="STARZPLAY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="44"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEz-RD-qvE">
+                        <rect key="frame" x="0.0" y="0.0" width="162" height="44"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NG4-HC-wHL">
+                                <rect key="frame" x="0.0" y="0.0" width="162" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEASON 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFm-mf-x66">
+                                        <rect key="frame" x="0.0" y="12.666666666666666" width="162" height="18.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C7i-9Z-Fu0">
+                                        <rect key="frame" x="0.0" y="41.666666666666664" width="162" height="2.3333333333333357"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQT-c6-Tm5">
+                                        <rect key="frame" x="160.33333333333334" y="13.666666666666666" width="1.6666666666666572" height="16.666666666666671"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="YFm-mf-x66" firstAttribute="leading" secondItem="NG4-HC-wHL" secondAttribute="leading" id="02M-SX-ulo"/>
+                                    <constraint firstItem="C7i-9Z-Fu0" firstAttribute="height" secondItem="NG4-HC-wHL" secondAttribute="height" multiplier="0.05" id="43P-4n-I6F"/>
+                                    <constraint firstItem="NQT-c6-Tm5" firstAttribute="width" secondItem="NG4-HC-wHL" secondAttribute="width" multiplier="0.01" id="9iV-i3-Lss"/>
+                                    <constraint firstItem="NQT-c6-Tm5" firstAttribute="height" secondItem="YFm-mf-x66" secondAttribute="height" multiplier="0.9" id="Gpt-Ex-5g7"/>
+                                    <constraint firstAttribute="trailing" secondItem="YFm-mf-x66" secondAttribute="trailing" id="IoB-mB-8ve"/>
+                                    <constraint firstItem="C7i-9Z-Fu0" firstAttribute="leading" secondItem="NG4-HC-wHL" secondAttribute="leading" id="LjZ-JZ-Byb"/>
+                                    <constraint firstAttribute="trailing" secondItem="C7i-9Z-Fu0" secondAttribute="trailing" id="dR7-vS-Z6W"/>
+                                    <constraint firstItem="NQT-c6-Tm5" firstAttribute="centerY" secondItem="NG4-HC-wHL" secondAttribute="centerY" id="jAa-za-5uy"/>
+                                    <constraint firstItem="YFm-mf-x66" firstAttribute="centerY" secondItem="NG4-HC-wHL" secondAttribute="centerY" id="l8g-av-S4S"/>
+                                    <constraint firstAttribute="trailing" secondItem="NQT-c6-Tm5" secondAttribute="trailing" id="lqL-J8-mw5"/>
+                                    <constraint firstAttribute="bottom" secondItem="C7i-9Z-Fu0" secondAttribute="bottom" id="y0p-Ls-Fi4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="NG4-HC-wHL" secondAttribute="bottom" id="8Ge-LL-kpk"/>
+                            <constraint firstItem="NG4-HC-wHL" firstAttribute="leading" secondItem="VEz-RD-qvE" secondAttribute="leading" id="JJL-22-8h9"/>
+                            <constraint firstItem="NG4-HC-wHL" firstAttribute="top" secondItem="VEz-RD-qvE" secondAttribute="top" id="kON-Cg-vQ9"/>
+                            <constraint firstAttribute="trailing" secondItem="NG4-HC-wHL" secondAttribute="trailing" id="p9z-Jf-I4u"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="VEz-RD-qvE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5Eo-es-Asf"/>
+                <constraint firstItem="VEz-RD-qvE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Dxv-3Q-KXN"/>
+                <constraint firstAttribute="trailing" secondItem="VEz-RD-qvE" secondAttribute="trailing" id="aBg-Uz-cwo"/>
+                <constraint firstAttribute="bottom" secondItem="VEz-RD-qvE" secondAttribute="bottom" id="uDK-TO-FCT"/>
+            </constraints>
+            <size key="customSize" width="162" height="44"/>
+            <connections>
+                <outlet property="seasonsTitle" destination="YFm-mf-x66" id="fvC-PZ-yf0"/>
+                <outlet property="selectedView" destination="C7i-9Z-Fu0" id="h2A-pL-UJH"/>
+            </connections>
+            <point key="canvasLocation" x="-80.916030534351137" y="17.605633802816904"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

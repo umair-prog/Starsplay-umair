@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C7713DD9-0492-460E-A965-DC8F8E7782BD"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "188B11FA-D319-48D3-8684-45836B15B306"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "STARZPLAY/SeasonsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "setEmptySeasonDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73B2AA90-9C28-48D9-9671-183C6D3F02FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "STARZPLAY/ScrollableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "565940EF-FC9B-4764-A4E7-B18385AB33AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "STARZPLAY/ScrollableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "fetchSeasonDetail(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1A2607D-564C-4F5D-99D3-CEC00220DFE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "STARZPLAY/SeasonsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "scrollViewDidEndDecelerating(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1A2607D-564C-4F5D-99D3-CEC00220DFE4 - 1267ab2564da3980"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in STARZPLAY.SeasonsViewController.scrollViewDidEndDecelerating(__C.UIScrollView) -&gt; ()"
+                  moduleName = "STARZPLAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Downloads/STARZPLAY%202/STARZPLAY/SeasonsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "2156">
+               </Location>
+               <Location
+                  uuid = "C1A2607D-564C-4F5D-99D3-CEC00220DFE4 - 1eb938f944290dfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "STARZPLAY.SeasonsViewController.scrollViewDidEndDecelerating(__C.UIScrollView) -&gt; ()"
+                  moduleName = "STARZPLAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Downloads/STARZPLAY%202/STARZPLAY/SeasonsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "1616">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0490BC572BB964F70032DBB1 /* AFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC562BB964F70032DBB1 /* AFManager.swift */; };
+		0490BC592BB965030032DBB1 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC582BB965030032DBB1 /* NetworkConstants.swift */; };
+		0490BC6D2BB966AD0032DBB1 /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC5B2BB966AD0032DBB1 /* Genres.swift */; };
+		0490BC6E2BB966AD0032DBB1 /* Last_episode_to_air.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC5C2BB966AD0032DBB1 /* Last_episode_to_air.swift */; };
+		0490BC6F2BB966AD0032DBB1 /* Seasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC5D2BB966AD0032DBB1 /* Seasons.swift */; };
+		0490BC702BB966AD0032DBB1 /* TVShowDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC5E2BB966AD0032DBB1 /* TVShowDetailsModel.swift */; };
+		0490BC712BB966AD0032DBB1 /* Production_companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC5F2BB966AD0032DBB1 /* Production_companies.swift */; };
+		0490BC722BB966AD0032DBB1 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC602BB966AD0032DBB1 /* Networks.swift */; };
+		0490BC732BB966AD0032DBB1 /* Spoken_languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC612BB966AD0032DBB1 /* Spoken_languages.swift */; };
+		0490BC742BB966AD0032DBB1 /* Created_by.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC622BB966AD0032DBB1 /* Created_by.swift */; };
+		0490BC752BB966AD0032DBB1 /* Production_countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC632BB966AD0032DBB1 /* Production_countries.swift */; };
+		0490BC762BB966AD0032DBB1 /* SeasonsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC652BB966AD0032DBB1 /* SeasonsDetail.swift */; };
+		0490BC772BB966AD0032DBB1 /* Crew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC662BB966AD0032DBB1 /* Crew.swift */; };
+		0490BC782BB966AD0032DBB1 /* Guest_stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC672BB966AD0032DBB1 /* Guest_stars.swift */; };
+		0490BC792BB966AD0032DBB1 /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC682BB966AD0032DBB1 /* Episodes.swift */; };
+		0490BC7A2BB966AD0032DBB1 /* TVShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC6A2BB966AD0032DBB1 /* TVShowViewModel.swift */; };
+		0490BC7B2BB966AD0032DBB1 /* SeasonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC6B2BB966AD0032DBB1 /* SeasonViewModel.swift */; };
+		0490BC7E2BB97AC80032DBB1 /* ImageViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC7D2BB97AC80032DBB1 /* ImageViewExtention.swift */; };
+		0490BC802BB98DD50032DBB1 /* SeasonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC7F2BB98DD50032DBB1 /* SeasonsViewModel.swift */; };
+		0490BC822BB9ACF80032DBB1 /* UIView Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC812BB9ACF80032DBB1 /* UIView Extension.swift */; };
+		0490BC842BB9B7E90032DBB1 /* ViewController Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC832BB9B7E90032DBB1 /* ViewController Extention.swift */; };
+		0490BC862BB9B8C60032DBB1 /* UICollectionView Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC852BB9B8C60032DBB1 /* UICollectionView Extention.swift */; };
+		0490BC882BB9BB5B0032DBB1 /* CollectionViewTopAlignLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC872BB9BB5B0032DBB1 /* CollectionViewTopAlignLayout.swift */; };
+		0490BC8B2BB9CF440032DBB1 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490BC8A2BB9CF440032DBB1 /* PlayerViewController.swift */; };
+		6FA8A2B2ED8BA2093BD8EBB2 /* libPods-STARZPLAY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F3969A4B74089C618CAB63 /* libPods-STARZPLAY.a */; };
+		805C4FBB2BB5E63A0033CF5F /* SeasonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805C4FB92BB5E63A0033CF5F /* SeasonsCollectionViewCell.swift */; };
+		805C4FBC2BB5E63A0033CF5F /* SeasonsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805C4FBA2BB5E63A0033CF5F /* SeasonsCollectionViewCell.xib */; };
+		805C4FC02BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805C4FBE2BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.swift */; };
+		805C4FC12BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805C4FBF2BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.xib */; };
+		80AB56C32BB681A70036F395 /* EpisodeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB56C12BB681A70036F395 /* EpisodeListTableViewCell.swift */; };
+		80AB56C42BB681A70036F395 /* EpisodeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AB56C22BB681A70036F395 /* EpisodeListTableViewCell.xib */; };
+		80C25B9D2BB402BF00B1B19A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C25B9C2BB402BF00B1B19A /* AppDelegate.swift */; };
+		80C25B9F2BB402BF00B1B19A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C25B9E2BB402BF00B1B19A /* SceneDelegate.swift */; };
+		80C25BA12BB402BF00B1B19A /* TVShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C25BA02BB402BF00B1B19A /* TVShowViewController.swift */; };
+		80C25BA42BB402BF00B1B19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C25BA22BB402BF00B1B19A /* Main.storyboard */; };
+		80C25BA62BB402C000B1B19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C25BA52BB402C000B1B19A /* Assets.xcassets */; };
+		80C25BA92BB402C000B1B19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C25BA72BB402C000B1B19A /* LaunchScreen.storyboard */; };
+		80ED4C4B2BB570FE004AFD22 /* SeasonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED4C4A2BB570FE004AFD22 /* SeasonsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0490BC562BB964F70032DBB1 /* AFManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFManager.swift; sourceTree = "<group>"; };
+		0490BC582BB965030032DBB1 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		0490BC5B2BB966AD0032DBB1 /* Genres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
+		0490BC5C2BB966AD0032DBB1 /* Last_episode_to_air.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Last_episode_to_air.swift; sourceTree = "<group>"; };
+		0490BC5D2BB966AD0032DBB1 /* Seasons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seasons.swift; sourceTree = "<group>"; };
+		0490BC5E2BB966AD0032DBB1 /* TVShowDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowDetailsModel.swift; sourceTree = "<group>"; };
+		0490BC5F2BB966AD0032DBB1 /* Production_companies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production_companies.swift; sourceTree = "<group>"; };
+		0490BC602BB966AD0032DBB1 /* Networks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networks.swift; sourceTree = "<group>"; };
+		0490BC612BB966AD0032DBB1 /* Spoken_languages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spoken_languages.swift; sourceTree = "<group>"; };
+		0490BC622BB966AD0032DBB1 /* Created_by.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Created_by.swift; sourceTree = "<group>"; };
+		0490BC632BB966AD0032DBB1 /* Production_countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production_countries.swift; sourceTree = "<group>"; };
+		0490BC652BB966AD0032DBB1 /* SeasonsDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonsDetail.swift; sourceTree = "<group>"; };
+		0490BC662BB966AD0032DBB1 /* Crew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crew.swift; sourceTree = "<group>"; };
+		0490BC672BB966AD0032DBB1 /* Guest_stars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guest_stars.swift; sourceTree = "<group>"; };
+		0490BC682BB966AD0032DBB1 /* Episodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
+		0490BC6A2BB966AD0032DBB1 /* TVShowViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowViewModel.swift; sourceTree = "<group>"; };
+		0490BC6B2BB966AD0032DBB1 /* SeasonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonViewModel.swift; sourceTree = "<group>"; };
+		0490BC7D2BB97AC80032DBB1 /* ImageViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtention.swift; sourceTree = "<group>"; };
+		0490BC7F2BB98DD50032DBB1 /* SeasonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsViewModel.swift; sourceTree = "<group>"; };
+		0490BC812BB9ACF80032DBB1 /* UIView Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView Extension.swift"; sourceTree = "<group>"; };
+		0490BC832BB9B7E90032DBB1 /* ViewController Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController Extention.swift"; sourceTree = "<group>"; };
+		0490BC852BB9B8C60032DBB1 /* UICollectionView Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView Extention.swift"; sourceTree = "<group>"; };
+		0490BC872BB9BB5B0032DBB1 /* CollectionViewTopAlignLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTopAlignLayout.swift; sourceTree = "<group>"; };
+		0490BC8A2BB9CF440032DBB1 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		6A12AD6D8ED37450CDD7EBD3 /* Pods-STARZPLAY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STARZPLAY.debug.xcconfig"; path = "Target Support Files/Pods-STARZPLAY/Pods-STARZPLAY.debug.xcconfig"; sourceTree = "<group>"; };
+		7E13DA9CCB8EAB56A0A79D83 /* Pods-STARZPLAY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STARZPLAY.release.xcconfig"; path = "Target Support Files/Pods-STARZPLAY/Pods-STARZPLAY.release.xcconfig"; sourceTree = "<group>"; };
+		805C4FB92BB5E63A0033CF5F /* SeasonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		805C4FBA2BB5E63A0033CF5F /* SeasonsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonsCollectionViewCell.xib; sourceTree = "<group>"; };
+		805C4FBE2BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		805C4FBF2BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonsDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		80AB56C12BB681A70036F395 /* EpisodeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListTableViewCell.swift; sourceTree = "<group>"; };
+		80AB56C22BB681A70036F395 /* EpisodeListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeListTableViewCell.xib; sourceTree = "<group>"; };
+		80C25B992BB402BF00B1B19A /* STARZPLAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STARZPLAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C25B9C2BB402BF00B1B19A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80C25B9E2BB402BF00B1B19A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80C25BA02BB402BF00B1B19A /* TVShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowViewController.swift; sourceTree = "<group>"; };
+		80C25BA32BB402BF00B1B19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80C25BA52BB402C000B1B19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C25BA82BB402C000B1B19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80C25BAA2BB402C000B1B19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80ED4C4A2BB570FE004AFD22 /* SeasonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsViewController.swift; sourceTree = "<group>"; };
+		C5F3969A4B74089C618CAB63 /* libPods-STARZPLAY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STARZPLAY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C25B962BB402BF00B1B19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA8A2B2ED8BA2093BD8EBB2 /* libPods-STARZPLAY.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0490BC4F2BB964C20032DBB1 /* ServiceManagers */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC562BB964F70032DBB1 /* AFManager.swift */,
+				0490BC582BB965030032DBB1 /* NetworkConstants.swift */,
+			);
+			path = ServiceManagers;
+			sourceTree = "<group>";
+		};
+		0490BC5A2BB966AD0032DBB1 /* TV Show Details */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC5B2BB966AD0032DBB1 /* Genres.swift */,
+				0490BC5C2BB966AD0032DBB1 /* Last_episode_to_air.swift */,
+				0490BC5D2BB966AD0032DBB1 /* Seasons.swift */,
+				0490BC5E2BB966AD0032DBB1 /* TVShowDetailsModel.swift */,
+				0490BC5F2BB966AD0032DBB1 /* Production_companies.swift */,
+				0490BC602BB966AD0032DBB1 /* Networks.swift */,
+				0490BC612BB966AD0032DBB1 /* Spoken_languages.swift */,
+				0490BC622BB966AD0032DBB1 /* Created_by.swift */,
+				0490BC632BB966AD0032DBB1 /* Production_countries.swift */,
+			);
+			path = "TV Show Details";
+			sourceTree = "<group>";
+		};
+		0490BC642BB966AD0032DBB1 /* SeasonDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC652BB966AD0032DBB1 /* SeasonsDetail.swift */,
+				0490BC662BB966AD0032DBB1 /* Crew.swift */,
+				0490BC672BB966AD0032DBB1 /* Guest_stars.swift */,
+				0490BC682BB966AD0032DBB1 /* Episodes.swift */,
+			);
+			path = SeasonDetail;
+			sourceTree = "<group>";
+		};
+		0490BC692BB966AD0032DBB1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC7F2BB98DD50032DBB1 /* SeasonsViewModel.swift */,
+				0490BC6A2BB966AD0032DBB1 /* TVShowViewModel.swift */,
+				0490BC6B2BB966AD0032DBB1 /* SeasonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0490BC892BB9CC5A0032DBB1 /* StoryBoards and Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				80C25BA72BB402C000B1B19A /* LaunchScreen.storyboard */,
+				80C25BA22BB402BF00B1B19A /* Main.storyboard */,
+				80AB56C22BB681A70036F395 /* EpisodeListTableViewCell.xib */,
+				805C4FBF2BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.xib */,
+				805C4FBA2BB5E63A0033CF5F /* SeasonsCollectionViewCell.xib */,
+			);
+			path = "StoryBoards and Xibs";
+			sourceTree = "<group>";
+		};
+		0490BC8C2BB9DB670032DBB1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC7D2BB97AC80032DBB1 /* ImageViewExtention.swift */,
+				0490BC812BB9ACF80032DBB1 /* UIView Extension.swift */,
+				0490BC852BB9B8C60032DBB1 /* UICollectionView Extention.swift */,
+				0490BC872BB9BB5B0032DBB1 /* CollectionViewTopAlignLayout.swift */,
+				0490BC832BB9B7E90032DBB1 /* ViewController Extention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		0490BC8D2BB9DC0B0032DBB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC642BB966AD0032DBB1 /* SeasonDetail */,
+				0490BC5A2BB966AD0032DBB1 /* TV Show Details */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0490BC8E2BB9DC720032DBB1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC8A2BB9CF440032DBB1 /* PlayerViewController.swift */,
+				80C25BA02BB402BF00B1B19A /* TVShowViewController.swift */,
+				80ED4C4A2BB570FE004AFD22 /* SeasonsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0490BC8F2BB9DCD20032DBB1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				805C4FB92BB5E63A0033CF5F /* SeasonsCollectionViewCell.swift */,
+				80AB56C12BB681A70036F395 /* EpisodeListTableViewCell.swift */,
+				805C4FBE2BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		80C25B902BB402BF00B1B19A = {
+			isa = PBXGroup;
+			children = (
+				80C25B9B2BB402BF00B1B19A /* STARZPLAY */,
+				80C25B9A2BB402BF00B1B19A /* Products */,
+				CEFBF1049C8732212B5C8A9C /* Pods */,
+				BAAABF5A415EA996925AAEFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80C25B9A2BB402BF00B1B19A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C25B992BB402BF00B1B19A /* STARZPLAY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C25B9B2BB402BF00B1B19A /* STARZPLAY */ = {
+			isa = PBXGroup;
+			children = (
+				0490BC8E2BB9DC720032DBB1 /* ViewControllers */,
+				0490BC692BB966AD0032DBB1 /* ViewModels */,
+				0490BC8D2BB9DC0B0032DBB1 /* Models */,
+				0490BC892BB9CC5A0032DBB1 /* StoryBoards and Xibs */,
+				0490BC8F2BB9DCD20032DBB1 /* Cells */,
+				0490BC4F2BB964C20032DBB1 /* ServiceManagers */,
+				0490BC8C2BB9DB670032DBB1 /* Extentions */,
+				80C25B9C2BB402BF00B1B19A /* AppDelegate.swift */,
+				80C25B9E2BB402BF00B1B19A /* SceneDelegate.swift */,
+				80C25BA52BB402C000B1B19A /* Assets.xcassets */,
+				80C25BAA2BB402C000B1B19A /* Info.plist */,
+			);
+			path = STARZPLAY;
+			sourceTree = "<group>";
+		};
+		BAAABF5A415EA996925AAEFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F3969A4B74089C618CAB63 /* libPods-STARZPLAY.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFBF1049C8732212B5C8A9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A12AD6D8ED37450CDD7EBD3 /* Pods-STARZPLAY.debug.xcconfig */,
+				7E13DA9CCB8EAB56A0A79D83 /* Pods-STARZPLAY.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80C25B982BB402BF00B1B19A /* STARZPLAY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C25BAD2BB402C000B1B19A /* Build configuration list for PBXNativeTarget "STARZPLAY" */;
+			buildPhases = (
+				ED1DAE43834F29AE38373923 /* [CP] Check Pods Manifest.lock */,
+				80C25B952BB402BF00B1B19A /* Sources */,
+				80C25B962BB402BF00B1B19A /* Frameworks */,
+				80C25B972BB402BF00B1B19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STARZPLAY;
+			productName = STARZPLAY;
+			productReference = 80C25B992BB402BF00B1B19A /* STARZPLAY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80C25B912BB402BF00B1B19A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					80C25B982BB402BF00B1B19A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 80C25B942BB402BF00B1B19A /* Build configuration list for PBXProject "STARZPLAY" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80C25B902BB402BF00B1B19A;
+			productRefGroup = 80C25B9A2BB402BF00B1B19A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C25B982BB402BF00B1B19A /* STARZPLAY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C25B972BB402BF00B1B19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805C4FC12BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.xib in Resources */,
+				80AB56C42BB681A70036F395 /* EpisodeListTableViewCell.xib in Resources */,
+				80C25BA92BB402C000B1B19A /* LaunchScreen.storyboard in Resources */,
+				805C4FBC2BB5E63A0033CF5F /* SeasonsCollectionViewCell.xib in Resources */,
+				80C25BA62BB402C000B1B19A /* Assets.xcassets in Resources */,
+				80C25BA42BB402BF00B1B19A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED1DAE43834F29AE38373923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STARZPLAY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80C25B952BB402BF00B1B19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0490BC6F2BB966AD0032DBB1 /* Seasons.swift in Sources */,
+				0490BC8B2BB9CF440032DBB1 /* PlayerViewController.swift in Sources */,
+				0490BC7E2BB97AC80032DBB1 /* ImageViewExtention.swift in Sources */,
+				0490BC592BB965030032DBB1 /* NetworkConstants.swift in Sources */,
+				0490BC6D2BB966AD0032DBB1 /* Genres.swift in Sources */,
+				0490BC842BB9B7E90032DBB1 /* ViewController Extention.swift in Sources */,
+				0490BC782BB966AD0032DBB1 /* Guest_stars.swift in Sources */,
+				0490BC882BB9BB5B0032DBB1 /* CollectionViewTopAlignLayout.swift in Sources */,
+				805C4FC02BB5F4FA0033CF5F /* SeasonsDetailCollectionViewCell.swift in Sources */,
+				80AB56C32BB681A70036F395 /* EpisodeListTableViewCell.swift in Sources */,
+				0490BC742BB966AD0032DBB1 /* Created_by.swift in Sources */,
+				0490BC6E2BB966AD0032DBB1 /* Last_episode_to_air.swift in Sources */,
+				80C25BA12BB402BF00B1B19A /* TVShowViewController.swift in Sources */,
+				0490BC792BB966AD0032DBB1 /* Episodes.swift in Sources */,
+				0490BC732BB966AD0032DBB1 /* Spoken_languages.swift in Sources */,
+				0490BC722BB966AD0032DBB1 /* Networks.swift in Sources */,
+				80C25B9D2BB402BF00B1B19A /* AppDelegate.swift in Sources */,
+				0490BC702BB966AD0032DBB1 /* TVShowDetailsModel.swift in Sources */,
+				0490BC762BB966AD0032DBB1 /* SeasonsDetail.swift in Sources */,
+				0490BC572BB964F70032DBB1 /* AFManager.swift in Sources */,
+				0490BC772BB966AD0032DBB1 /* Crew.swift in Sources */,
+				0490BC752BB966AD0032DBB1 /* Production_countries.swift in Sources */,
+				0490BC712BB966AD0032DBB1 /* Production_companies.swift in Sources */,
+				0490BC862BB9B8C60032DBB1 /* UICollectionView Extention.swift in Sources */,
+				0490BC802BB98DD50032DBB1 /* SeasonsViewModel.swift in Sources */,
+				80C25B9F2BB402BF00B1B19A /* SceneDelegate.swift in Sources */,
+				0490BC822BB9ACF80032DBB1 /* UIView Extension.swift in Sources */,
+				805C4FBB2BB5E63A0033CF5F /* SeasonsCollectionViewCell.swift in Sources */,
+				0490BC7B2BB966AD0032DBB1 /* SeasonViewModel.swift in Sources */,
+				0490BC7A2BB966AD0032DBB1 /* TVShowViewModel.swift in Sources */,
+				80ED4C4B2BB570FE004AFD22 /* SeasonsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80C25BA22BB402BF00B1B19A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C25BA32BB402BF00B1B19A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80C25BA72BB402C000B1B19A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C25BA82BB402C000B1B19A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80C25BAB2BB402C000B1B19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80C25BAC2BB402C000B1B19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80C25BAE2BB402C000B1B19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A12AD6D8ED37450CDD7EBD3 /* Pods-STARZPLAY.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RRB9U2B78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = STARZPLAY/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Slickcall.STARZPLAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80C25BAF2BB402C000B1B19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E13DA9CCB8EAB56A0A79D83 /* Pods-STARZPLAY.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RRB9U2B78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = STARZPLAY/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Slickcall.STARZPLAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80C25B942BB402BF00B1B19A /* Build configuration list for PBXProject "STARZPLAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C25BAB2BB402C000B1B19A /* Debug */,
+				80C25BAC2BB402C000B1B19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C25BAD2BB402C000B1B19A /* Build configuration list for PBXNativeTarget "STARZPLAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C25BAE2BB402C000B1B19A /* Debug */,
+				80C25BAF2BB402C000B1B19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80C25B912BB402BF00B1B19A /* Project object */;
+}
